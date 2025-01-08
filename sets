@@ -1,0 +1,46 @@
+# sets => used to store a collection of items,{}
+# no duplicate elements
+# unordered
+# mutable
+from traceback import print_last
+
+s= {1,2,3,4,5}
+for x in s:
+    print(x)
+
+a={"monika","moni"}
+for g in a:
+    print(g)
+print(a)
+
+#Function       Description
+#all()	        Returns True if all elements of the set are true (or if the set is empty).
+#any()	        Returns True if any element of the set is true. If the set is empty, returns False.
+#enumerate()	Returns an enumerate object. It contains the index and value for all the items of the set as a pair.
+#len()	        Returns the length (the number of items) in the set.
+#max()	        Returns the largest item in the set.
+#min()	        Returns the smallest item in the set.
+#sorted()	    Returns a new sorted list from elements in the set(does not sort the set itself).
+#sum()	        Returns the sum of all elements in the set.
+
+
+a= {12,56,85,45,75,96}
+print("initial set:",a)
+a.add(55)
+print("updated set:",a)
+
+companies={'abcd','efgh'} #updated
+tech_companies={'apple','google'}
+companies.update(tech_companies)
+print("updated set:",companies)
+
+languages = {'hindi','english','python'}
+removeValue = languages.discard('python')
+print(languages)
+
+
+a= {12,56,85,45,75,96}
+print(all(a))
+
+a= {12,56,85,45,75,96}
+print(any(a))
