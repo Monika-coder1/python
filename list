@@ -1,0 +1,74 @@
+from itertools import count
+from re import search
+
+l = [1,2,3,4,5,6]
+print(l)
+
+a = [1,2,3,[4,5,6]]
+print(a[3])
+
+#List Slicing
+
+n = [1,2,3,4,5,6,"monika"]
+print(n[1:7])
+
+
+s = [2,4,6,8]
+s.append(10)
+print(s)
+
+s = [2,4,6,8]
+s.insert(3,10)
+print(s)
+
+
+s = [2,4,6,8]
+s.remove(2)
+print(s)
+
+
+
+s = [2,4,6,8]
+s[3]=5 # change item in list
+print(s)
+
+
+s = [2,4,6,8]
+print("list s:",s)
+
+d = [9,7,5,3]
+s.extend(d)
+print("updated s :",s)
+
+
+d = [9,7,5,3]
+print("total length :",len(d))
+
+
+d = [9,7,5,3]
+for d in d:
+    print(d)
+
+
+f= ['apple','banana','black','white']
+f.reverse()
+print(f)
+
+f= ['apple','banana','black','white']
+f.copy()
+print(f)
+
+h= [9,8,7,6,5,4,3,2,1]
+h.sort()
+print(h)
+
+
+h= [9,8,7,6,5,4,3,2,1]
+h.clear()
+print(h)
+
+
+lst=[9,8,7,6,8,4,3,8 ,1]
+count_of_8=lst.count(8)
+
+print(count_of_8)
