@@ -1,0 +1,36 @@
+k = "Monika"
+o= k.lower()
+print(o)
+
+
+k = "Monika"
+o= k.upper()
+print(o)
+
+
+k = "Monika"
+o= k.capitalize()
+print(o)
+
+k = "Monika"
+o= k.find("k")
+print(o)
+
+k = "Monika"
+o= k.index("k")
+print(o)
+
+k = "Monika"
+o= k.isalpha()
+print(o)
+
+k = "Monika"
+o= k.isdigit()
+print(o)
+
+k = "Monika"
+o= k.isalnum()
+print(o)
+
+
+
