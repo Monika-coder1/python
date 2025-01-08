@@ -1,0 +1,38 @@
+#implement a stack and queue using a list data type
+# Stack => linear data structure , LIFO/FILO
+# push=> inserting a element
+#pop =>deleting a element(last element)
+#peek=>displaying the last element
+#display => displaying list
+
+l=[]
+while True:
+    c=int(input('''
+    1.push a element
+    2.pop a element
+    3.peek a element
+    4.display an element
+    5.exit
+    ''' ))
+    if c==1:
+        n=int(input("enter a value :"))
+        l.append(n)
+        print(l)
+    elif c==2:
+        if len(l)==0:
+            print("no elements :")
+        else:
+            p=l.pop()
+            print(p)
+            print(l)
+    elif c==3:
+        if len(l)==0:
+            print("no elements :")
+        else:
+            print("peek element :",l[-1])
+    elif c==4:
+        print("display an element",l)
+    elif c==5:
+        break
+    else:
+        print("invalid input")
