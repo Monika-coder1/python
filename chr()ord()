@@ -1,0 +1,8 @@
+#chr()
+y = chr(65)   #converting integer 65 to ASCII character ('A)
+print(type(y),y)
+
+#ord()
+
+a= 'H'
+print(ord(a))
