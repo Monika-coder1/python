@@ -1,0 +1,10 @@
+# the format() method formats the specified values(s)
+# and insert them inside the string's placeholder.
+# The placeholder is defined using curly brackets {}
+
+text1 = "welcome to {fname} {lname}".format(fname="my",lname="home")
+print(text1)
+text2 = "welcome to {0} {1}".format("my","home")
+print(text2)
+text3 = "welcome to {}{}".format("my","home")
+print(text3)
