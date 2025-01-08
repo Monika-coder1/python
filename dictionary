@@ -1,0 +1,80 @@
+# dictionary = unordered data type, key:value,{}
+"""
+a={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+
+for k in a:
+    print(k)
+    print(a[k])
+"""
+"""
+pop()	Removes the item with the specified key.
+update()	Adds or changes dictionary items.
+clear()	Remove all the items from the dictionary.
+keys()	Returns all the dictionary's keys.
+values()	Returns all the dictionary's values.
+get()	Returns the value of the specified key.
+popitem()	Returns the last inserted key and value as a tuple.
+copy()	Returns a copy of the dictionary.
+"""
+n={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+g=n.copy()
+print(n)
+print(g)
+
+n={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+g=n.get('name')
+print(n)
+print(g)
+
+n={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+g=n.keys()
+print(n)
+print(g)
+
+
+n={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+n=n.values()
+print(n)
+
+
+
+n={ #update
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+n['name'] = 'moni'
+print(n)
+
+
+n={
+    'name' :'monika',
+    'age' :22,
+    'fav_color' : 'black'
+}
+del n['name']
+print(n)
+
+
+n=dict(name='moni',age=22,fav_color='black')
+print(n)
