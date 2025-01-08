@@ -1,0 +1,12 @@
+# program to convert string to list
+n = input("enter the value :")
+print(n)
+l=n.split()
+print(l)
+
+# print multiple value
+s=[]
+for a in range(1,4):
+    n=input("enter a value :"+str(a)+":-")
+    l.append(n)
+print(l)
