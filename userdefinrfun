@@ -1,0 +1,35 @@
+# simple Function
+# def => reserved word
+def function():
+     print("monika")
+function()
+
+# Function with arguments
+# syntax : def function_name(argument1, argument2, ...):
+#     statements
+#     .
+#     .
+
+def evenOdd(x):
+    if(x%2==0):
+        print("even")
+    else:
+        print("odd")
+
+evenOdd(5)
+evenOdd(4)
+
+#default argument
+
+def myFun(x,y=10):
+    print("x:",x)
+    print("y:",y)
+myFun(50)
+
+# return type
+
+def sumData(a):
+    return a*a
+
+n=sumData(10)
+print(n)
