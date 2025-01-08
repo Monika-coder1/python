@@ -1,0 +1,19 @@
+#max() with Python Tuple
+#It returns the largest element in a tuple.
+
+a =(23,56,75,42,90,95,63)
+print(max(a))
+
+#min()
+
+a =(23,56,75,42,90,95,63)
+print(min(a))
+
+#sum()
+a =(23,56,75,42,90,95,63)
+print(sum(a))
+
+#sorted()
+a =(23,56,75,42,90,95,63)
+sorted_tuple = sorted(a)
+print(sorted_tuple)
