@@ -1,0 +1,16 @@
+#nested dictionary => means putting a dictionary inside another dictionary
+#it's a collection of dictionaries into one single dictionary
+
+course ={
+    'php':{'duration':'2months', 'fees':'1500'},
+    'python': {'duration': '2months', 'fees': '1500'},
+    'java': {'duration': '2months', 'fees': '1500'}
+}
+print(course)
+course['php']['duration'] = '7months'
+print(course['php'])
+print(course['python'])
+print(course['java'])
+
+for k,v in course.items():
+    print(k,v['duration'],v['fees'])
