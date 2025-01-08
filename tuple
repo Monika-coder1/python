@@ -1,0 +1,20 @@
+# tuple => ordered,(),
+# #immutable=> nochange in data,
+# work on index number
+# tuple work on multiple elements
+
+t=(20,30,40)
+a=t[2]
+print(a)
+
+y= ("python","java","php")
+print(type(y))
+
+#iterate
+a=(45,23,89)
+l=len(a)
+for i in range(l):
+    print(a)
+    print(a[i])
+for i in a:
+    print(i)
