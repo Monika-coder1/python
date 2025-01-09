@@ -1,0 +1,28 @@
+# python random randint() method
+# return number between 5 and 10 (both included)
+import random
+print((random.randint(5,10)))
+
+# randrange => return  number between 3 (included) and 9(not included)
+import random
+print(random.randrange(3,9))
+
+# choice() method
+import random
+l=["apple","banana","orange"]
+a=random.choice(l)
+print(a)
+
+# random() => return a random float value between 0 and 1
+import random
+r=random.random()
+print(random.random())
+
+
+# shuffle() => take a sequence and return the sequence in a random order
+a=[12,35,56,12,42,32]
+random.shuffle(a)
+print(a)
+#uniform() => return a random float number between two given parameters
+m=random.uniform(12,23)
+print(m)
