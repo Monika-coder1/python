@@ -1,0 +1,15 @@
+#A module may contain variables, functions, classes etc.
+# 2types of module => user define module, pre define module
+# import is a keyword
+
+import math
+print("the value of pi is:", math.pi)
+
+
+def sum(a,b):
+    c=a+b
+    return c
+
+def mul(a,b):
+    c=(a*b)
+    return c
