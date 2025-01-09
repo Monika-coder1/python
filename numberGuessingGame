@@ -1,0 +1,12 @@
+import random
+number= random.randrange(1,100)
+userInput= int(input("Enter a number:"))
+if userInput>number:
+    print("the number is :",number)
+    print("the guess number is high")
+elif userInput<number:
+    print("the number is :",number)
+    print("the guess number is low")
+else:
+    print("the number is :",number)
+    print("the guess number is equal")
