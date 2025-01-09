@@ -1,0 +1,12 @@
+import module
+print(module.sum(52,45))
+print(module.mul(41,23))
+
+from module import mul
+print(mul(2,2))
+
+from module import sum
+print(sum(2,2))
+
+import module as m
+print(m.sum(2,2))
