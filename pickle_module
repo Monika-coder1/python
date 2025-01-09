@@ -1,0 +1,23 @@
+#Python pickle module is used for serializing and
+# de-serializing a Python object structure.
+# object--> byte stream --> files,database,memory -->byte stream --> object
+# serialization                                         De-serialization
+# you can pickle object with the following data types:
+# Boolean, Integer, Float, Complex number,
+# (normal and unicode) String,tuple, dictionary,lists,sets
+# import pickle
+# 2 function of pickle --> 1. dump()-> serialize an object hierarchy
+# 2. load() -> de-serialize a data stream
+
+import pickle
+l=[10,20,30,40,50]
+file = open("writedata.txt","wb")
+pickle.dump(l,file)
+file.close()
+
+
+
+import pickle
+file = open("writedata.txt","rb")
+l = pickle.load(file)
+print(l)
