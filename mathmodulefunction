@@ -1,0 +1,45 @@
+# math.ceil() => roundoff the value
+import math
+x= 45.5
+print("the ceil of 45.5 is :",end ="")
+print(math.ceil(x))
+
+#math.FABS() => return the absolute value of x,
+# return the value od a number as float
+import math
+x=-12
+print("the  absolute value of -12 is :",end ="")
+print(math.fabs(x))
+
+#math.factorial()
+import math
+x=5
+print("the factorial of 5 is :",end ="")
+print(math.factorial(x))
+
+#math.floor =>function returns the largest integer not greater than x.
+# If number is already integer, same number is returned.
+import math
+x= 86.5
+print("the floor value of 86.5 is :",end ="")
+print(math.floor(x))
+
+#fsum() is inbuilt function in Python,
+#return an accurate floating point sum of values in the iterable
+# used to find sum between some range or an iterable.
+# To use this function we need to import the math library.
+# Syntax :maths.fsum( iterable )
+
+import math
+print(math.fsum(range(10)))
+arr =[1,4,6]
+print(math.fsum(arr))
+arr=[2.5,3.5,4.5]
+print(math.fsum(arr))
+
+
+#math.sqrt()
+import math
+x=25
+print("rhe sqrt of 25 is :",end ="")
+print(math.sqrt(x))
