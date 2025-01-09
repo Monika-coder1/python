@@ -1,0 +1,32 @@
+# Json => javascript object notation
+#  it is mainly used for storing and transferring data between the browser and the server.
+# JSON is text, written with javascript object notation
+# python support JSON with in built package called json
+#import json
+# json support 6 datatypes -> string, number,boolean, null, object, array
+# ex-> p='{"name":"ws","lang":["python","java"]}'
+
+
+# converting python object to json
+import json
+from secrets import token_hex
+
+blog ={"URL":'www.google.com','name':'Lenovo'}
+to_json = json.dumps(blog)
+print(to_json)
+
+# converting json to python object => json.load()
+
+import json
+
+p = '{"name":"ws","lang":["python","java"]}'
+y = json.loads(p)
+print(y)
+
+import json
+file = open("package.json","r")
+x= file.read()
+finaldata = json.loads(x)
+for i in finaldata:
+    print(finaldata[i])
+print(finaldata)
