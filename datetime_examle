@@ -1,0 +1,11 @@
+# import module named datetime to work with dates as date object
+#import datetime
+
+import datetime
+
+current_time=datetime.datetime.now()
+print(current_time)
+#year=now.strftime("%Y")
+#print(now.year)
+##print(now.month)
+#print(now.day)
