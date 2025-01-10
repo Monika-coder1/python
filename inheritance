@@ -1,0 +1,70 @@
+# Inheritance is a fundamental concept in object-oriented programming
+# (OOP) that allows a class (called a child or derived class) to inherit
+# attributes and methods from another class (called a parent or base class).
+# Syntax for Inheritance
+# class ParentClass:
+#
+#
+#     # Parent class code here
+#
+#
+#     pass
+#
+#
+# class ChildClass(ParentClass):
+#
+#
+#     # Child class code here
+#
+#
+#     pass
+
+
+#single in inheritance
+class family:
+    def person1(self):
+        print('monika')
+
+class family2(family):
+    def person2(self):
+        print('moni')
+object=family2()
+object.person1()
+object.person2()
+
+# multi- level inheritance
+class family:
+    def person1(self):
+        print('monika')
+
+class family2(family):
+    def person2(self):
+        print('moni')
+
+class family3(family2):
+    def person3(self):
+        print('nancy')
+object=family3()
+object.person1()
+object.person2()
+object.person3()
+
+ # multiple inheritance
+
+class family:
+    def person1(self):
+        print('monika')
+
+class family2:
+    def person2(self):
+        print('moni')
+
+class family3(family, family2):
+    def person3(self):
+        print('nancy')
+object=family3()
+object.person1()
+object.person2()
+object.person3()
+
+
