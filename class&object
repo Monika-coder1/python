@@ -1,0 +1,28 @@
+# OOPs Concepts in Python
+# Class in Python --> A class is a collection of objects.
+# Classes are blueprints for creating objects. A class defines a set of attributes and methods that the created objects (instances) can have.
+# Objects in Python
+# Polymorphism in Python
+# Encapsulation in Python
+# Inheritance in Python
+# Data Abstraction in Python
+# class has __init__() function.
+# It automatically initializes object attributes when an object is created.
+# __str__ method in Python allows us to define a custom string representation of an object.
+
+# Define a class
+class Animal:
+    def __init__(self, name, sound):
+        self.name = name  # Attribute
+        self.sound = sound  # Attribute
+
+    def make_sound(self):
+        return f"The {self.name} says {self.sound}!"
+
+# Create objects
+dog = Animal("Dog", "Woof")
+cat = Animal("Cat", "Meow")
+
+# Access methods and attributes
+print(dog.make_sound())  # Output: The Dog says Woof!
+print(cat.make_sound())  # Output: The Cat says Meow!
